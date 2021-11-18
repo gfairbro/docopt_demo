@@ -11,9 +11,9 @@ Options:
 " -> doc
 library(docopt)
 
+opt <- docopt(doc)
 main <- function(opt) {
 
-  opt <- docopt(doc)
   print(opt)
   print(typeof(opt))
 
